@@ -6,8 +6,13 @@ Projekts, kas demonstre UI elementu lietojumu. Tema: MR. Bean
 - [x] Text elementa lietojums
 - [x] Button elementa lietojums
 - [x] C# skripta izveide un piesaiste objektam
+<<<<<<< HEAD
 - [x] Image elementa lietojums
 - [x] Toggle element lietojums
+=======
+- [ ] Image elementa lietojums
+- [ ] Toggle element lietojums
+>>>>>>> 5f62f0d09b243f998b5b08b44c6bcf977f324d1e
 - [ ] Toggle group komponentes piesaiste
 - [ ] Drop down elementa lietojums
 - [ ] Slider elementa lietojums
