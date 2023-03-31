@@ -2,10 +2,10 @@
 Projekts, kas demonstre UI elementu lietojumu. Tema: MR. Bean
 ![MR.Bean attēls](https://eu-images.contentstack.com/v3/assets/blt781c383a1983f673/bltc3e5bba550bbafcd/621cd9d649d9ac45be97463f/MrBeanDigital(2).jpg?width=800&auto=webp&format=png)
 ## Darba saraksts:
-- [ ] Input fiel lietojums
-- [ ] Text elementa lietojums
-- [ ] Button elementa lietojums
-- [ ] C# skripta izveide un piesaiste objektam
+- [x] Input fiel lietojums
+- [x] Text elementa lietojums
+- [x] Button elementa lietojums
+- [x] C# skripta izveide un piesaiste objektam
 - [ ] Image elementa lietojums
 - [ ] Toggle element lietojums
 - [ ] Toggle group komponentes piesaiste
