@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class VardaParadisana : MonoBehaviour {
 	//Mainīgais, kurā ieglābājas informācija no Input field
 	private string teksts;
-	private string[] A = {"Sveiki!","Labdien!","Čau čau!","Prikes tevi redzēt!"};
+	private string[] A = {"Sveiki ","Labdien ","Čau čau ","Prieks tevi redzēt "};
 	//Uzglāba nejaušo skaitli
 	int nejauss;
 	//Lauks no kurā ievada teksta
