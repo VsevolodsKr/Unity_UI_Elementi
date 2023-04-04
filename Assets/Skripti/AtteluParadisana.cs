@@ -13,6 +13,7 @@ public class AtteluParadisana : MonoBehaviour {
     public GameObject mainigaisAttels;
     public Sprite[] atteluMasivs;
     public GameObject slideraIzmers;
+	public GameObject rotacijasSlideris;
     public void BinaAttels(bool vertiba) {
         bean.SetActive(vertiba);
         paKreisi.GetComponent<Toggle>().interactable = vertiba;
@@ -51,4 +52,8 @@ public class AtteluParadisana : MonoBehaviour {
         float pasreizejaisIzmers = slideraIzmers.GetComponent<Slider>().value;
         mainigaisAttels.transform.localScale = new Vector2(1f*pasreizejaisIzmers, 1f*pasreizejaisIzmers);
     }
+	public void rotet(){
+		float pasreizejaVertiba = rotacijasSlideris.GetComponent<Slider> ().value;
+		mainigaisAttels.transform.localRotation = Quaternion.Euler(0, 0, 360 * pasreizejaVertiba); 
+	}
 }
