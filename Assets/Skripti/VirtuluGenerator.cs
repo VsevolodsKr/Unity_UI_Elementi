@@ -6,7 +6,7 @@ public class VirtuluGenerator : MonoBehaviour {
 		public GameObject[] virtuluSagataves;
 		public float laikaIntervals = 1.0f;
 		float minPoz, maxPoz;
-		Transform krasasTransform;
+		public Transform krasasTransform;
 		void Start(){
 			krasasTransform = GetComponent<Transform>();
 		}
